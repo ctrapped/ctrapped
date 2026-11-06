@@ -8,13 +8,13 @@ collaborations. More at [ctrapped.github.io](https://ctrapped.github.io/).
 
 ### Projects
 
-- **[CoNNGaFit](https://github.com/ctrapped/CoNNGaFit)**: a 3-D convolutional neural network that
-  learns how the gas in a galaxy is moving from telescope-style images created from state-of-the-art
-  simulations. It ships with a demo that trains on a laptop CPU in about a minute.
 - **[VeryObservableFIRE](https://github.com/ctrapped/VeryObservableFIRE)**: turns galaxy simulations
   into realistic synthetic radio-telescope observations and saves underlying physics information at
   each pixel. This can be used as training data for simulation-based inference (training ML models on
   simulated data so they can be applied to real data).
+  - **[CoNNGaFit](https://github.com/ctrapped/CoNNGaFit)**: a 3-D convolutional neural network that
+  learns how the gas in a galaxy is moving from telescope-style images created from state-of-the-art
+  simulations. It ships with a demo that trains on a laptop CPU in about a minute.
 - **[Clump finder](https://github.com/foggie-sims/foggie/tree/master/foggie/clumps/clump_finder)**:
   finds small gas structures around simulated galaxies. Existing tools were too slow at this scale or
   simply could not run at the scale of our simulations. 
